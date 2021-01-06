@@ -24,35 +24,44 @@
         
         </div>
             <div class="jumbotron">
-                <h1 class="text-center text-lg-center">Choisissez un Univers</h1>
-                <p class="text-center text-lg-center">Pour choisir des articles avec vos personnages préférés.</p>
+                <h1 class="text-md-center">Choisissez un Univers</h1>
+                <p class="text-md-center">Pour choisir des articles avec vos personnages préférés.</p>
                 </div>
-            <div class="container">
-                    
-                      
+        
+            <div class="container">       
             <div class="row">
-		<div class="col-6 col-12 col-lg-6">
+		<div class="col-6 col-lg-6">
                     <div class="card">
-                         <img src=”../images/illustrations/Carte_Octobre01cb.jpg” alt=”squeletteGerard” class=”card-img-top”>
-                         <div class="card-body">
-                         <h5 class="card-title">Devitae</h5>
-                          <p class="card-text">Univers démoniaque</p>
-			  </div>
+                    <a href="ShopUniv1.php" stretched-link>
+                    <div class="card-header">
+                        <h5 class="card-title text-md-center">Devitae</h5>
+                            <p class="card-text text-md-center">Univers démoniaque</p>
+                        </a>  
+                        </div>
+                        <div class="card-body"><br>
+                            <a href="ShopUniv1.php" stretched-link>
+                            <img src="../images/illustrations/futur01c.jpg" alt="squeletteGerard" class="card-img-bottom"><br><br>
+                            </a>
+                    	 </div>
                     </div>
 				
 	   	</div>
-                    <div class="col-6 col-12 col-lg-6">
+                    <div class="col-6 col-lg-6">
 			<div class="card">
-                            <img src=”../images/vetements/TShirtPanda.png” alt=”squeletteGerard” class=”card-img-top”>
+                            <a href="ShopUniv1.php" stretched-link>
+                            <div class="card-header">
+                                <h5 class="card-title text-md-center">Perfect World</h5>
+                                <p class="card-text text-md-center">Univers robotique</p>
+                            </a>
+                            </div>
                             <div class="card-body">
-                            <h5 class="card-title">Perfect World</h5>
-                            <p class="card-text">Univers robotique</p>
-                            </div><br><br>
+                                <a href="ShopUniv1.php" stretched-link>
+                            <img src="../images/illustrations/Decembre2_2020.jpg" alt="carte" class="card-img-top" size="60%">
+                                </a>
+                            </div>
                         </div>
                     </div>
-			
-			
-	     	</div>
+	    </div>
 	   </div>
         <?php
        

@@ -43,7 +43,7 @@ class ClientDAO {
             
             $record = $lrs->fetch();
             if ($record != null) {
-                $client = new Client($record[0], $record[1], $record[2], $record[3], $record[4], $record[5],$record[6],$record[7],$record[8]);
+                $client = new Client($record[0], $record[1], $record[2], $record[3], $record[4], $record[5],$record[6],$record[7],$record[8],$record[9]);
             } else {
                 $client = new Client("0", "Introuvable");
             }

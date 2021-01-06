@@ -1,11 +1,11 @@
 <?php
 /*
- * ArticleDAOPOO.php
+ * PaysDAOPOO.php
  */
 //php 7
 //declare (strict_type = 1);
 
-//Chargement du fichier article.php
+//Chargement du fichier Pays.php
 require_once '../entities/Pays.php';
 
 /**

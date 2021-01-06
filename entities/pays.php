@@ -19,7 +19,7 @@ class pays {
     private $nomPays;
 
     //CONSTRUCTEUR
-    public function __construct($idPays, $alpha3, $nomPays) {
+    public function __construct($idPays = "", $alpha3 = "", $nomPays = "") {
         $this->idPays = $idPays;
         $this->alpha3 = $alpha3;
         $this->nomPays = $nomPays;

@@ -19,13 +19,36 @@ Authentification.php
         </header
         <section id="center">
             <article>
-                <!--                <h1>Authentification</h1>-->
+                <!--  <h1>INSCRIPTION</h1>-->
                 <div id="conteneur">
-                <div class="element"><br>
-                    <h2>Inscription</h2><br><br>
-                    <form action="../MainCTRL.phpCTRL.php" method="get"><br><br>
+                <div class="element">
+                    <h2>Inscription</h2>
+                    <div class="gotoinscription"><br>
+                    <br>
+                    </div>
+                    <form action="../AuthentificationCTRL.php" method="get">
                         <p>
-                            <img class="logo" src="images/signatureRondNBWD02b" alt="logo"><br>
+                            <img class="logo" src="../images/icones/signatureRondNBWD02b.png" width="150" px-6 mx-6 alt="logo"><br>
+                        </p>
+                        <p>
+                            <label for="nomClient" class="etiquette">Nom</label>
+                            <input type="text" class="obligatoire" name="nomClient" id="nomClient" placeholder="Nom ?" />
+                            <label>*</label>
+                        </p>
+                        <p>
+                            <label for="prenomClient" class="etiquette">Prénom</label>
+                            <input type="text" class="obligatoire" name="prenomClient" id="prenomClient" placeholder="Prénom ?" />
+                            <label>*</label>
+                        </p>
+                        <p>
+                            <label for="adresseClient" class="etiquette">Adresse</label>
+                            <input type="text" class="obligatoire" name="adresseClient" id="adresseClient" placeholder="Adresse ?" />
+                            <label>*</label>
+                        </p>
+                        <p>
+                            <label for="villeClient" class="etiquette">Ville</label>
+                            <input type="text" class="obligatoire" name="villeClient" id="villeClient" placeholder="Ville ?" />
+                            <label>*</label>
                         </p>
                         <p>
                             <label for="emailClient" class="etiquette">Email</label>
@@ -35,6 +58,11 @@ Authentification.php
                         <p>
                             <label for="emailClient" class="etiquette">Confirmation Email</label>
                             <input type="text" class="obligatoire" name="emailClient2" id="emailClient" placeholder="Email ?" />
+                            <label>*</label>
+                        </p>
+                        <p>
+                            <label for="telephoneClient" class="etiquette">Téléphone</label>
+                            <input type="text" class="obligatoire" name="telephoneClient" id="telephoneClient" placeholder="Téléphone ?" />
                             <label>*</label>
                         </p>
                         <p>
@@ -60,6 +88,7 @@ Authentification.php
                         <p>
                             <a href ="#" id="motDePasseOublie">Mot de passe oublié ?</a>
                         </p>
+                        <p>* = Champ obligatoire</p>
                         <br>
                         <p id="pButtons">
                             <label class="etiquette">&nbsp;</label>

@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
+Footer identique inclus dans toutes les pages du site
 -->
 <html lang="en">
     <head>
@@ -23,17 +21,20 @@ and open the template in the editor.
         ?>
     
     <div>
+        <!-- Définition de la couleur de fond du footer avec classe Bootstrap -->
     <div class="bg-light">
+        <!-- Utilisation de la class container Bootstrap et de la grille -->
     <div class="container">
       <div class="row">
         <div class="col">
           <ul class="list-inline text-center">
-              <li class="list-inline-item"><a href="#">Réseaux sociaux</a></li>
-            <li class="list-inline-item"><a href="#">Conditions Générales de Vente</a></li>
-            <li class="list-inline-item">&middot;</li>
-            <li class="list-inline-item"><a href="#">Mentions légales</a></li>
-            <li class="list-inline-item">&middot;</li>
-            <li class="list-inline-item"><a href="#">Pland du site</a></li>
+              <!-- Liste des différents items de menu du footer -->
+             <li class="list-inline-item m-2 p-2"><a href="#">Réseaux sociaux</a></li>
+            <li class="list-inline-item m-2 p-2"><a href="#">Conditions Générales de Vente</a></li>
+            <li class="list-inline-item m-2 p-2">&middot;</li>
+            <li class="list-inline-item m-2 p-2"><a href="#">Mentions légales</a></li>
+            <li class="list-inline-item m-2 p-2">&middot;</li>
+            <li class="list-inline-item m-2 p-2"><a href="#">Plan du site</a></li>
           </ul>
         </div>
       </div>

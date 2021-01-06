@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!--
 Projet personnel formation M2i - Odile Derouaisné pour Weline Deem
@@ -22,22 +23,20 @@ Projet personnel formation M2i - Odile Derouaisné pour Weline Deem
          ?>
         </header>   
         <div class="jumbotron">
-            <h1 class="text-center text-lg-center">Weline Deem</h1>
-            <h3 class="text-center text-lg-center">Character Designer Illustration,Comic Art, scenario</h3>
+            <h1 class="text-center text-lg-center">Welcom on Weline Deem's shop</h1>
+            <h3 class="text-center text-lg-center">Character Designer Illustration, Comic Art, scenario</h3>
             <p class="text-center text-lg-center">
                
                 <section class="text-center text-lg-center" class='presentation'>
                   Hello ! I'm Weline Deem. <br>
-               The drawing is my first big passion. It’s my life ! <br>
-               I have been drawing since I can hold a pencil. <br>
-               I am a big dreamer and I happen draw my dreams or to write stories. <br>
-               I created many different universes and today, I have two comics : "Devitae" and "Dices Game" on Mangadraft.<br></p>
+                  I created many different universes and today, I have two comics : "Devitae" and "Dices Game" on Mangadraft.<br>
+                  Everything you can buy in my shop are illustrated with characters of  my comics strip  or stories </p>
                </section>
         </div>
         <div class="container">
                    
                <p><br>
-                <div id="carouselControls" class="carousel slide" data-ride="carousel">
+                <div id="carouselControls" class="carousel slide" data-ride="carousel" data-interval="4000">
                 <div class="carousel-inner">
                    <div class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">

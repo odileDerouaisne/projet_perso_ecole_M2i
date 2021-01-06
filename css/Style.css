@@ -1,30 +1,77 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
 /* 
     Created on : 26 oct. 2020, 19:08:32
     Author     : Oderouai
 */
 
+/* Classe principale de la barre de navigation */
+.nav {
+ /* Couleur de fond de la barre de navigation */
+ background-color: #0f0f0f;
+ border-color: #E7E7E7;
+ 
+}
 
-article{
+.element{
+    width: 50%;
+    padding: 10px;
+    margin: 30px;
+    border: black solid 1px;
+    border-radius: 20px;
+    position: center;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+#logo-nav{
+    size: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+#social a img{
+    width: 60px;
+    display: block-inline;
+    vertical-align: top;
+    margin: 10 auto;
+    padding: 10 auto;
+}
+.header__top__right {
+	text-align: right;
+	padding: 5px 0 13px;
+}
+#navbarContent{
+    text-align: right;
+    padding: 10px 0 13px;
+}
+
+.gotoinscription{
+    background-color: silver;
+    font-size: bold;
+}
+/*-------------------
+    Header
+---------------------*/
+
+
+/*-------------------
+    Page shop generale
+---------------------*/
+
+
+/*-------------------
+    Page APropos
+---------------------*/
+#presentation {
     background-color: #1C2833;
     color: white;
-    width: 400px;
+    width: 800px;
     border-color: 5px grey solid;
     border-radius: 30px;
-    position: relative;
-    margin-bottom: 100px;
-    padding-bottom: 100px;
-}   
-
-#conteneur{
-    display: flex;
-    justify-content: center;
+    margin: 4rem;
+    padding: 4rem;
     
+       
 }
-.logo{
-    width=32px heigth= 32px
-}
+
+
+

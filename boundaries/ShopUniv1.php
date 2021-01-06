@@ -10,8 +10,14 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
+        <header> 
         <?php
-        // put your code here
+        include "navPrincipal.php";
         ?>
+        </header>
+        
+        
+        
+        
     </body>
 </html>

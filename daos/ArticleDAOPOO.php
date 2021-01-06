@@ -136,8 +136,8 @@ class ArticleDAO {
     public function update(Article $article): int {
         $affected = 0;
         try{
-            $cmd=$this->pdo->prepare("UPDATE article SET id_article = ?,  designation_article = ?, prix_article = ?, photo_produit=?; taille=?, id_categorie_article=? WHERE id_article = ?");
-            $cmd->bindValue(1, $article->getIdArticle());
+            $cmd=$this->pdo->prepare("UPDATE article SET designation_article = ?, prix_article = ?, photo_produit=?; taille=?, id_categorie_article=? WHERE id_article = ?");
+            //$cmd->bindValue(1, $article->getIdArticle());
             $cmd->bindValue(2, $article->getDesignationArticle());
             $cmd->bindValue(3, $article->getPrixArticle());
             $cmd->bindValue(4, $article->getPhotoArticle());

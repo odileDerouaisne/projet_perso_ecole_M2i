@@ -6,9 +6,12 @@
  */
 require_once '../daos/Connexion.php';
 
+session_start();
 $message ="";
 $email = "";
 $pwd = "";
+
+$pdo = getConnection($messageErreur);
 
 try{
     //---CONNEXION
@@ -29,9 +32,9 @@ try{
      $lrs->bindValue(2, $pwdClient);
     // On exécute la requête et le résultat est dans 1ResultSet donc1tableau 1D
     $lrs->execute();
-    // Récup un enr ou aucun
+    // Récup un enregistrement ou aucun
     $record = $lrs->fetch();
-    // Si pas d'enr
+    // Si pas d'enregistrement
     if ($record === false) {
         // Suppression de la variable message
         unset($message);

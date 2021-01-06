@@ -12,20 +12,22 @@
  * @author Oderouai
  */
 class Ville {
-   //ATTRIBUTS
+
+    //ATTRIBUTS
 
     private $cpVille;
     private $nomVille;
     private $idPays;
     private $idVille;
-    
+
     //Constructor
-    public function __construct($cpVille, $nomVille, $idPays, $idVille) {
+    public function __construct($cpVille = "", $nomVille = "", $idPays = "", $idVille = "") {
         $this->cpVille = $cpVille;
         $this->nomVille = $nomVille;
         $this->idPays = $idPays;
         $this->idVille = $idVille;
-    }      
+    }
+
     //METHODES
     function getCpVille() {
         return $this->cpVille;
@@ -58,6 +60,5 @@ class Ville {
     function setIdVille($idVille) {
         $this->idVille = $idVille;
     }
-
 
 }
